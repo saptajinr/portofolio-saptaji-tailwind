@@ -13,6 +13,9 @@
       .gradient {
         background-image: linear-gradient(to bottom right, #4c51bf, #702459);
       }
+      .gradient-skill {
+        background-image: linear-gradient(#fc8181, #fed7d7);
+      }
     </style>
   </head>
   <body>
@@ -69,7 +72,7 @@
         </div>
       </nav>
     </section>
-    <section class="w-screen mx-auto py-5 bg-indigo-700 gradient">
+    <section class="w-screen mx-auto py-5 bg-indigo-700 gradient px-4">
       <div class="px-18 py-8 text-center text-white">
         <h1 class="w-full text-5xl font-bold mb-4">About me</h1>
         <div class="mb-4">
@@ -113,7 +116,7 @@
           </div>
         </div>
         <div class="max-w-sm shadow-lg px-4 py-4 bg-white m-3 text-center">
-          <i class="fa-solid fa-pen-ruler text-red-500 fa-5x mb-6"></i>
+          <i class="fa-solid fa-pen-ruler text-blue-500 fa-5x mb-6"></i>
           <div class="p-4">
             <p class="font-bold text-lg md:text-xl mb-6">Design</p>
             <p class="text-gray-600 text-base mb-2">CSS</p>
@@ -130,7 +133,7 @@
           </div>
         </div>
         <div class="max-w-sm shadow-lg px-4 py-4 bg-white m-3 text-center">
-          <i class="fa-solid fa-database text-green-500 fa-5x mb-6"></i>
+          <i class="fa-solid fa-database text-blue-500 fa-5x mb-6"></i>
           <div class="p-4">
             <p class="font-bold text-lg md:text-xl mb-6">Database</p>
             <p class="text-gray-600 text-base mb-2">MySQL</p>
@@ -148,8 +151,51 @@
         </div>
       </div>
     </section>
-    <section class="w-screen mx-auto py-4 bg-white h-32">
-      Skill framework
+    <section class="container mx-auto py-4 bg-white px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mt-20">
+          <img
+            src="img/img4.jpg"
+            alt=""
+            class="max-w-full rounded-lg shadow-lg"
+          />
+        </div>
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="md:pr-12">
+            <h1
+              class="w-full my-2 text-5xl font-bold text-center text-gray-700"
+            >
+              Skill Framework
+            </h1>
+            <div class="mb-4">
+              <div
+                class="bg-pink-500 w-1/2 opacity-75 rounded h-1 mx-auto"
+              ></div>
+            </div>
+            <p class="mt-4 text-lg text-gray-600">
+              Berikut adalah item dan skala keahlian untuk framework :
+            </p>
+            <ul class="list-none mt-4">
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Codeigniter</p>
+                <div class="gradient-skill w-7/8"></div>
+              </li>
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Laravel</p>
+                <div class="gradient-skill w-3/4"></div>
+              </li>
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Bootstrap</p>
+                <div class="gradient-skill w-2/3"></div>
+              </li>
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Tailwindcss</p>
+                <div class="gradient-skill w-1/2"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
     <section
       class="w-screen mx-auto py-4 bg-gray-300 h-32 text-indigo-900 lg:text-green-700"
